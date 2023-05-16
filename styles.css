@@ -1,5 +1,6 @@
 /* You will neeed to change the font across the webpage*/
 
+/* HOMEPAGE */
 
 body {
     margin: 0px;
@@ -30,7 +31,7 @@ h1 {
 #subtitle {
     text-align: center;
     font-size: 2vw;
-    color: bisque;
+    color: sandybrown
 }
 
 nav {
@@ -58,7 +59,7 @@ nav li {
     font-size: 1em;
 }
 
-main {
+#mainhome {
     height: 55em;
     display: flex;
     justify-content: center;
@@ -77,5 +78,81 @@ footer {
     height: 50px;
     margin: auto;
     background-color: bisque;
+}
+
+/* MY PROJECTS ------------------------------------------------------------------------------------------------------------ */
+
+#mainproject {
+    height: 55em;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(white, bisque);
+}
+
+
+#projecttable {
+    table-layout: fixed;
+    margin: auto;
+    width: 80vw;
+    /*border: 2px solid black;*/
+    text-align: center;
+    align-content: center;
+}
+
+
+th {
+    height: 3vw;
+    color: sandybrown
+}
+
+td {
+    /*border: solid 1px black;*/
+    overflow: hidden;
+    color: sandybrown
+}
+
+#projectimagerow {
+    width: 400px;
+    height: 700px;
+}
+
+/* FAILED TO PLACE IMAGES CORRECTLY USING OBJECT-FIT AND OBJECT-POSITION. CHANGED TO USING BACKGROUND IMAGE BELOW
+.projectimages {
+    height: 750px;
+    width: 722px;
+    object-fit: cover;
+    object-position: 70% 80%;
+}
+*/
+
+.projectimages2 {
+    background-image: url("assets/shocked.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Intended to make text appear whilst hovering over corresponding image. Only opacity (below) is currently functional). 
+.projecttext {
+    visibility: hidden;
+}
+*/
+
+.projectimages2:hover {
+    opacity: 45%;
+}
+
+.projectimages2 p:hover {
+    opacity: 100%;
+    visibility: visible;
+    color: black;
+    z-index: 1;
+}
+
+.projectdescrip {
+    height: 3vw;
 }
 
