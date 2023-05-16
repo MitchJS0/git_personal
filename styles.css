@@ -1,0 +1,81 @@
+/* You will neeed to change the font across the webpage*/
+
+
+body {
+    margin: 0px;
+}
+
+#backgroundvid {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#maintitle {
+    color: bisque;
+    font-size: 16vw;
+    text-align: center;
+    margin: 0px;
+}
+
+#titlem:hover, #titlei:hover, #titlet:hover, #titlec:hover, #titleh:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 2vw;
+    color: bisque;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson
+}
+
+/*
+#homenav {
+    visibility: hidden; 
+}
+*/
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 1em;
+}
+
+main {
+    height: 55em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #title {
+    width: 70%;
+}
+*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+    background-color: bisque;
+}
+
