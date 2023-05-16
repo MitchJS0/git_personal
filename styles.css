@@ -220,11 +220,18 @@ td {
 
 #maintech {
     height: 55em;
-    width: 100%;
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: center;
+}
+
+#cvheader {
+    text-align: center;
+    font-size: 6vw;
+}
+
+#cvbutton {
+    text-align: center;
 }
 
 
