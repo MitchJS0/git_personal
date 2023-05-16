@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-    color: crimson
+    color: sandybrown;
 }
 
 /*
@@ -145,14 +145,107 @@ td {
     opacity: 45%;
 }
 
+.projectimages2 p {
+    z-index: 1;
+    color: white
+}
+
 .projectimages2 p:hover {
     opacity: 100%;
     visibility: visible;
     color: black;
-    z-index: 1;
 }
 
 .projectdescrip {
     height: 3vw;
 }
 
+/* INFORMATION ------------------------------------------------------------------------------------------------------------ */
+
+
+#backgroundvid1 {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 92%;
+}
+
+#maininfo {
+    height: 55em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;;
+}
+
+#infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    width: 70%;
+}
+
+#infopic {
+    height: 30vw;
+}
+
+#biocontainer {
+    background-color: sandybrown;
+    padding: 2vw;
+    height: 30vw;
+    width: 22vw;
+    display: flex;
+}
+
+#infobio {
+    margin: auto;
+    color: bisque
+}
+
+#infobiointro {
+    color: bisque;
+    font-size: medium;
+}
+
+#infobiointro:hover, #infobiointro1:hover, #infobiointro2:hover, #infobiointro3:hover, #infobiointro4:hover {
+    color: black
+}
+
+
+/* TECHNICAL CV ------------------------------------------------------------------------------------------------------------ */
+
+#maintech {
+    height: 55em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* CONTACT ------------------------------------------------------------------------------------------------------------ */
+
+#maincontact {
+    height: 55em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+#mainhelp {
+    height: 55em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
