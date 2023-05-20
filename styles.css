@@ -163,12 +163,12 @@ td {
 /* INFORMATION ------------------------------------------------------------------------------------------------------------ */
 
 
-#backgroundvid1 {
+#backgroundvidinfo {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    opacity: 92%;
+    opacity: 90%;
 }
 
 #maininfo {
@@ -225,6 +225,14 @@ td {
     justify-content: center;
 }
 
+#backgroundvidtech {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 92%;
+}
+
 #cvheader {
     text-align: center;
     font-size: 6vw;
@@ -240,19 +248,54 @@ td {
 #maincontact {
     height: 55em;
     width: 100%;
-    display: flex;
+    display:
     align-items: center;
     align-content: center;
     justify-content: center;
 }
 
-
-
-#mainhelp {
-    height: 55em;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+#backgroundvidcontact {
+    position: fixed;
+    top: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    ;
 }
+
+#contacttable {
+    table-layout: fixed;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 1%;
+}
+
+#contacttext {
+    text-align: center;
+    padding: 3%;
+}
+
+#contactform {
+    width: 50%;
+    margin: auto;
+    display: grid;
+}
+
+.contactinfo:hover {
+    color: white;
+}
+
+label {
+    text-align: center;
+}
+
+form input, textarea {
+    margin: auto;
+    width: 75%;
+}
+
+#submit {
+    width: 20%
+}
+

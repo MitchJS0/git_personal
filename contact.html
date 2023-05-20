@@ -10,21 +10,71 @@
   </head>
 
   <body>
+    <video id="backgroundvidcontact" autoplay loop muted poster="https://assets.mixkit.co/videos/preview/mixkit-hand-turning-a-luminous-earth-globe-in-the-dark-21607-large.mp4">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-hand-turning-a-luminous-earth-globe-in-the-dark-21607-large.mp4">
+    </video>
     <header>
         <nav>
             <ul>
-                <li><a href = "./home.html">Home</a></li>
                 <li><a href = "./projects.html">My Projects</a></li>
                 <li><a href = "./information.html">Information</a></li>
                 <li><a href = "./technical.html">Technical CV</a></li>
                 <li><a href = "./contact.html">Contact</a></li>
-                <li><a href = "./helpline.html">Helpline</a></li>
+                <li><a href = "./home.html">Home</a></li>
             </ul>
         </nav>
     </header>
 
     <main id="maincontact">
-            <h1>CONTACT</h1> 
+            <!-- <h1>CONTACT</h1> -->
+            <div id="tablecontain">
+                <table id="contacttable">
+                    <tr>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                            LinkedIn
+                        </th>
+                        <th>
+                            Instagram
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="contactinfo">
+                            mitch@gmail.com
+                        </td>
+                        <td class="contactinfo">
+                            Mitchel Sutherland
+                        </td>
+                        <td class="contactinfo">
+                            mxtchjs
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="contacttext">
+                <h2>Need <span>urgent</span> assistance?
+                    <br><br>
+                    Complete the form below for help today:</h2>
+            </div>
+            <div id="formcontain">
+                <form id="contactform" action="./submit.html" method="POST">
+                    <label for="clientname">Name</label>
+                    <input type="text" name="clientname" id="clientname" required>
+                    <br><br>
+                    <label for="clientemail">Email</label>
+                    <input type="email" name="clientemail" id="clientemail" required>
+                    <br><br>
+                    <label for="clientnum">Number</label>
+                    <input type="tel" name="clientnum" id="clientnum" minlength = "11" maxlength = "11" required>
+                    <br><br>
+                    <textarea name="requires" id="requires" rows="10" maxlength="300" required>What do you need?</textarea>
+                    <br><br>
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+
         </div>
     </main>
     <footer>
