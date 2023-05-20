@@ -8,6 +8,7 @@ body {
 
 #backgroundvid {
     position: fixed;
+    top: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
@@ -165,6 +166,7 @@ td {
 
 #backgroundvidinfo {
     position: fixed;
+    top: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
@@ -227,6 +229,7 @@ td {
 
 #backgroundvidtech {
     position: fixed;
+    top: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
